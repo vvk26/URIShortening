@@ -1,0 +1,29 @@
+Change Database configuration in Application.proprties file
+
+ 
+
+Query to create TABLE
+
+ 
+
+CREATE TABLE URI_SHORTEN(
+
+     uri_id NUMBER,
+
+     longUri BLOB NOT NULL,
+
+    PRIMARY KEY(uri_id)
+
+);
+
+
+ 
+
+ -------------------------
+
+
+ 
+
+ http://localhost:9070/uriShorten
+ 
+ Directly use short uri from response
